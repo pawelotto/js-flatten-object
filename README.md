@@ -20,6 +20,7 @@ let objectToFlat = {
     "William Wisher Jr."
   ],
   year: 1991,
+  aired: true,
   cast: {
     mainRoles: {
       "Arnold Schwarzenegger": "The Terminator",
@@ -41,6 +42,7 @@ with the result being:
 {
   "title": "Terminator 2",
   "year": 1991,
+  "aired": true,
   "Arnold Schwarzenegger": "The Terminator",
   "Linda Hamilton": "Sarah Connor",
   "Ron Young": "Pool Cue Biker",
