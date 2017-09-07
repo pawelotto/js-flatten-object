@@ -7,3 +7,4 @@ This simple function accepts two arguments: `objectToFlat` and `flatObject` and 
 ## Caveats
 * Parent key/value objects will be lost if there's any following child object with the same key name. Remember? We can't have object with duplicate key names!
 * Key names from parent objects will be lost forever. There's nowhere to go!
+* Nested objects containing arrays will be lost
