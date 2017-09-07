@@ -21,7 +21,7 @@ module.exports = function flattenObject(objectToFlat, flatObject) {
   })(objectToFlat, flatObject)
 
   function isObject(a) {
-    return /^\{.*\}$/.test(JSON.stringify(Object(a)))
+    return a.constructor === Object
   }
 
   function isPrimitive(a) {
